@@ -1,0 +1,10 @@
+layout tall
+
+new_tab Virbian1
+launch ssh user@192.168.56.11
+new_tab Virbian2
+launch ssh user@192.168.56.12
+new_tab Virbian3
+launch ssh user@192.168.56.13
+new_tab Virbian4
+launch ssh user@192.168.56.14
