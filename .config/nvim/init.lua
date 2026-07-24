@@ -73,3 +73,5 @@ vim.g.coqtail_coq_path = '/home/adziw/.opam/5.4.0/bin'
 vim.g.coqtail_coq_prog = 'rocq'
 
 vim.api.nvim_command("set rtp^=\"/home/adziw/.opam/5.2.0+ox/share/ocp-indent/vim\"")
+
+vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"

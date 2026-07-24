@@ -28,3 +28,9 @@ vim.keymap.set("n", "<leader><leader>c", ":!make<CR>")
 -- keymaps for line wrapping
 vim.keymap.set("n", "j", "gj")
 vim.keymap.set("n", "k", "gk")
+
+-- tab keybindings
+vim.keymap.set("n", "<M-l>", ":tabn<CR>")
+vim.keymap.set("n", "<M-h>", ":tabp<CR>")
+vim.keymap.set("n", "<M-n>", ":tabnew<CR>:Ex<CR>")
+vim.keymap.set("n", "<M-q>", ":tabclose<CR>")

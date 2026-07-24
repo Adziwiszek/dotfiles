@@ -14,20 +14,18 @@
 
 # basic stuff
 alias ls='ls --color=auto'
-alias vim='nvim'
 # alias ll='ls -all'
 alias grep='grep --color=auto'
 alias info='info --vi-keys'
-
-alias fixmonitor='wlr-randr --output HDMI-A-1 --mode 1920x1080@24.000000Hz'
-
-alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 
 alias vbm='VBoxManage'
 
 # System maitenance
 alias browsepacman='pacman -Qq | fzf --preview "pacman -Qil {}" --layout=reverse --bind "enter:execute(pacman -Qil {} | less)"'
 alias czyszczenie='ncdu'
+alias fixmonitor='wlr-randr --output HDMI-A-1 --mode 1920x1080@24.000000Hz'
+alias vim='nvim'
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 
 # shows if there are no glob matches
 # shopt -s failglob
