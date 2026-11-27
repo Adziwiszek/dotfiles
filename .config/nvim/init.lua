@@ -66,11 +66,6 @@ vim.lsp.config('pyright', {
 })
 ]]
 
--- soft-wrap text (only visually) at the edge of the window
--- todo: help wrap
--- help linebreak
-vim.g.coqtail_coq_path = '/home/adziw/.opam/5.4.0/bin'
-vim.g.coqtail_coq_prog = 'rocq'
 
 vim.api.nvim_command("set rtp^=\"/home/adziw/.opam/5.2.0+ox/share/ocp-indent/vim\"")
 
